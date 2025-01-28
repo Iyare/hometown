@@ -1,4 +1,39 @@
 body {
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+}
+
+
+#hero {
+    min-height: 343px;
+    background-image: url("/assets/ring-road.jpg");
+    background-size: cover;
+    background-repeat: none;
+    background-position: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+        
+        h1 {
+            background-color: bisque;
+            padding: 10px 20px;
+            border-radius: 8px;
+            margin: 10px auto;
+            width: 255px;
+        }
+        
+        p {
+            background-color: azure;
+            padding:10px 20px;
+            font-weight: 500;
+            border-radius: 8px;
+            font-size: 1.2em;
+            max-width: 512px;
+            margin:0 auto;
+        }
+
 }
